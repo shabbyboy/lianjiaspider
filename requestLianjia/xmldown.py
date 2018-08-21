@@ -1,7 +1,9 @@
 from lxml.html import fromstring,tostring
 
 import requests
-
+"""
+用来测试lxml和beautifulsoup表达式的
+"""
 def downxml():
     xml = '<div class="house-title" data-lj_view_evtid="11228" data-lj_action_resblock_id="103102672365" data-lj_action_housedel_id="1411000000686"><div class="wrapper">王府园小区 2室1厅 46.49平米<span>2018.08.02 链家成交</span><h1 class="index_h1">王府园小区 2室1厅 46.49平米</h1></div></div>'
     resp = requests.get("https://nj.lianjia.com/chengjiao/103100472329.html",proxies ={"http":"http://115.32.41.100:80"})
