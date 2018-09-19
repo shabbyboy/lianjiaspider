@@ -1,0 +1,8 @@
+web_develop
+# C extensions
+*.so
+.idea
+celeryDemo/__pycache__
+requestLianjia/__pycache__
+requestLianjia/Lib
+requestLianjia/Scripts
