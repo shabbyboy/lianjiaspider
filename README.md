@@ -8,3 +8,5 @@
 ## celeryDemo
 这个包是上面的爬虫，通过celery实现了分布式部署，以redis做中间件<br>
 csdn上有文字介绍，博客地址：[前往博客](https://blog.csdn.net/caca95/article/details/82227947)
+
+<a title="Hits" target="_blank" href="https://github.com/shabbyboy/lianjiaspider"><img src="https://hits.b3log.org/b3log/hits.svg"></a>
